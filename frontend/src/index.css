@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    margin-top: 13dvh;
+
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('./assets/pictures/heroimage.jpg');
+}
+.shadowed-btn{
+    box-shadow: 0px 19px 30px -15px #FF9F1C;
+}
+.the-container {
+    background: linear-gradient(to right, #D9D9D9 0%, #F5F5F5 73%, #FFFFFF 100%);
+    box-shadow: 0px 20px 45.5px -24px #00000049;
+}
+.signup_section{
+    background: url('./assets/pictures/signinimage.png'), no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
